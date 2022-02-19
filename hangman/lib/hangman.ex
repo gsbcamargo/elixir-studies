@@ -1,5 +1,8 @@
 defmodule Hangman do
 
+  @type game :: any
+
+  @spec new_game() :: game
   def new_game do
 
   end
